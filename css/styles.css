@@ -17,7 +17,8 @@
 /*  -------------BODY-------------  */
 body {
     background-color: var(--primary_white_colour);
-    
+    color: var(--primary-text-colour);
+
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     }
@@ -87,7 +88,6 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    white-space: pre;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -235,10 +235,13 @@ body {
 .footer-contact-link {
     font-size: 14px;
     line-height: 1.71;
-
+    font-style: normal;
+    
     color: var(--footer-contacts-link)
 }
 
+.address-link:focus,
+.address-link:hover,
 .footer-contact-link:focus,
 .footer-contact-link:hover {
     color: var(--accent-colour);
