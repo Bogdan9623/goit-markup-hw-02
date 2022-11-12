@@ -1,0 +1,208 @@
+:root {
+    --primary_white_colour: #fff;
+    --primary-title-colour: #212121;
+    --primary-text-colour: #757575;
+    --accent-colour: #2196F3;
+    
+}
+
+/*  -------------BODY-------------  */
+body {
+    background-color: var(--primary_white_colour);
+    
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0,03em;
+    }
+
+.link {
+    text-decoration: none;
+    color: var(--primary-title-colour);
+}
+
+.list-item {
+    list-style: none;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.title {
+    color: var(--primary-title-colour);
+}
+
+.text {
+    color: var(--primary-text-colour);
+}
+
+/*  -------------HEADER-------------  */
+
+.logo-acсent {
+    color: var(--accent-colour);
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;    
+}
+
+.contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--primary-text-colour);
+}
+
+.nav-link:focus,
+.nav-link:hover,
+.contact-link:focus,
+.contact-link:hover {
+    color: var(--accent-colour);
+}
+
+/*  -------------HERO-------------  */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: #FFFFFF;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.hero-btn:focus,
+.hero-btn:hover {
+    background-color: #188CE8;
+}
+
+/*  -------------BENEFITS-------------  */
+
+.title-benefits,
+.hidden-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.subtitle-benefits {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.benefits-text {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/*  -------------CERVICES------------- */
+
+.service-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.cervs-img-link:focus {
+    color: var(--accent-colour);
+}
+
+/*  -------------OURTEAMS------------- */
+
+.teams-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.sub-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.team-link:focus {
+    color: var(--accent-colour);
+}
+
+/*  -------------PORTFOLIO------------- */
+
+.btn-filter {
+    background-color: #F5F4FA;
+    color: var(--primary-title-colour);
+}
+
+.btn-filter:focus,
+.btn-filter:hover {
+    background-color: var(--accent-colour);
+    color: #FFFFFF;
+}
+
+/*  -------------FOOTER------------- */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.logo-footer {
+    color: #FFFFFF;
+}
+
+.address-link {
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+
+    color: #FFFFFF;
+}
+
+.footer-contact-link {
+    font-size: 14px;
+    line-height: 1.71;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact-link:focus,
+.footer-contact-link:hover {
+    color: var(--accent-colour);
+}
